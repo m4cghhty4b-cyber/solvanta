@@ -15,6 +15,9 @@ analyzer:
     - null-aware-elements
   exclude:
     - build/**
+    - "**/*.g.dart" # Exclude generated Dart files from analysis.
+    - "**/*.freezed.dart"P
+    - g/**
     - android/**
     - ios/**
     - web/**
